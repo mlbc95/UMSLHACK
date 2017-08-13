@@ -7,7 +7,6 @@ import {AccordionModule} from 'primeng/primeng';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  logo="../assets/img/Webp.net-resizeimage (1).png";
-  sLogo="../assets/img/Webp.net-resizeimage.png";
-  umslIS="../assets/img/information_systems_logo.jpg"
+
 }
+ 
