@@ -17,7 +17,10 @@ export class HomeComponent implements OnInit {
   umslHack4 = "../../assets/img/DSC04230.JPG"
   umslHack5 = "../../assets/img/IMG_9878.JPG"
   umslHack6 = "../../assets/img/IMG_9967.JPG"
-  gotAPI=  "../../assets/img/test5.png"
+  gotAPI=  "../../assets/img/test5.png" 
+  labs= "../../assets/img/1904labs.png" 
+  LockerDome = "../../assets/img/logo-lockerdome.png"
+
   constructor() { }
 
   ngOnInit() {
