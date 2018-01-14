@@ -220,7 +220,7 @@
       -webkit-transform: translateY(0%);
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1420px) {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
@@ -229,10 +229,32 @@
         width: 100%;
         margin-bottom: 35px;
     }
+    .container-fluid {
+        padding: 0px;
+    }
   }
+  
   @media screen and (max-width: 480px) {
     .logo {
-        font-size: 150px;
+        width: 250px;
+    }
+    .main-logo{
+        width: 350px;
+    }
+    .row {
+        margin-right: 0px; 
+        margin-left: 0px;
+    }
+    .content{
+    padding-bottom: 15px;
+    padding:0px;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    position: absolute;
+    min-width: 28.5rem;
     }
   }
 
