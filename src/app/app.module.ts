@@ -8,6 +8,7 @@ import {AccordionModule} from 'primeng/primeng';
 import { AppComponent } from './app.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { HomeComponent } from './home/home.component';
+import { TimerComponent } from './timer/timer.component';
 
 const appRoutes : Routes =[
   {path:'', component:HomeComponent},
@@ -18,7 +19,8 @@ const appRoutes : Routes =[
   declarations: [
     AppComponent,
     ConfirmationComponent,
-    HomeComponent
+    HomeComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,

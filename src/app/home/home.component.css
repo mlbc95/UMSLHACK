@@ -95,6 +95,7 @@
   .logo {
       color: #f4511e;
       font-size: 200px;
+       margin-bottom: -85px;
   }
   .thumbnail {
       padding: 0 0 15px 0;
