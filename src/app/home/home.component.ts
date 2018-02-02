@@ -20,6 +20,7 @@ export class HomeComponent implements OnInit {
   gotAPI=  "../../assets/img/test5.png" 
   labs= "../../assets/img/1904labs.png" 
   LockerDome = "../../assets/img/logo-lockerdome.png"
+  masterCard = "../../assets/img/Webp.net-resizeimage.png"
 
   constructor() { }
 
