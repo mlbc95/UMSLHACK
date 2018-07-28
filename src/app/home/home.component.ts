@@ -7,7 +7,7 @@ import {AccordionModule} from 'primeng/primeng';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-    logo="../../assets/img/Webp.net-resizeimage (1).png";
+  logo="../../assets/img/Webp.net-resizeimage (1).png";
   sLogo="../../assets/img/Webp.net-resizeimage.png";
   umslIS="../../assets/img/information_systems_logo.jpg"
   og_UMSLHACK = "../../assets/img/og_logo.png"
@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   umslHack4 = "../../assets/img/DSC04230.JPG"
   umslHack5 = "../../assets/img/IMG_9878.JPG"
   umslHack6 = "../../assets/img/IMG_9967.JPG"
-  gotAPI=  "../../assets/img/test5.png" 
+  showMeTheData=  "../../assets/img/umslhackv3.png" 
   labs= "../../assets/img/1904labs.png" 
   LockerDome = "../../assets/img/logo-lockerdome.png"
   masterCard = "../../assets/img/Webp.net-resizeimage.png"

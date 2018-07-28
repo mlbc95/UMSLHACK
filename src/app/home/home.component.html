@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage" >  UMSL|HACK-v2</a>
+      <a class="navbar-brand" href="#myPage" >  UMSL|HACK-v3</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -25,10 +25,10 @@
    
    
   <div class="content">
-    <img [src]="logo" class="logo main-logo">
-<input type="button" value="Register" class="regbtn" onclick="window.open('https://my.mlh.io/oauth/authorize?client_id=8981e70016b3f0450c60f3321c7fff2d02852ee66a1afbc455dbc4f1eb45f947&redirect_uri=https://umslhack.herokuapp.com/confirm&response_type=token')"/>
-      <input class="sponserbtn" type="button" value="Mentor" onclick="window.open('https://form.jotform.com/80160527352147')">
-      <!-- <app-timer></app-timer> -->
+    <img [src]="logo" class="logo main-logo"> 
+      <input type="button" value="Register" class="regbtn" onclick="window.open('https://my.mlh.io/oauth/authorize?client_id=8981e70016b3f0450c60f3321c7fff2d02852ee66a1afbc455dbc4f1eb45f947&redirect_uri=https://umslhack.herokuapp.com/confirm&response_type=token')"/>
+      <input class="sponserbtn" type="button" value="Sponsor Us" onclick="window.open('../assets/files/Sponsor.pdf')">
+      <app-timer></app-timer>
   </div>
 </div>
 
@@ -39,17 +39,10 @@
       <h2>What is UMSL|HACK?</h2><br>
       <h4>UMSL|HACK is an annual hackathon hosted by the Information Systems Department at the University of Missouri-St. Louis. 
         UMSL|HACK main goal is to create a platform to challenge/encourage college students to apply their skills by building an application in 36 hours!
-        We know how valuable hackathons are to college students, while it might be intimidating to have a running application in 36 hours, 
-        we work very hard to provide participants with all the mentoring and help they need to get their app running. Our end goal is to make sure that all of our participants have learned something new in those 36 hours! 
+        We know how valuable hackathons are to college students, while it might be intimidating to have a running application in the allotted time,
+        we work very hard to provide participants with all the mentoring and help they need to get their app running.
         We hope by participating in UMSL|HACK students will gain valuable skills as they will be working in a team to complete a specific task that requires diverse sets of skills.</h4>
         <br>
-      <p>
-         <i>
-            UMSL|HACK was established after a group of UMSL students participating at their first ever hackathon and wanted to share the experience with the UMSL community. 
-             The first ever UMSL|HACK was March 3rd-5th 2017 and turned out to be a huge success as the winning team Younivise saw their idea incubated into a business with the help of UMSL|Accelerate. 
-             After receiving an overwhelming amount of positive feedback and participants asking, "When is the next UMSL|HACK?". We have decided to organize another hackathon UMSL|HACK: Got API February 16th-18th.
-          </i>
-      </p>
     </div>
     <div class="col-sm-4">
       <img class="logo" [src]="og_UMSLHACK">
@@ -60,13 +53,13 @@
 <div class="container-fluid bg-grey mt-5">
   <div class="row">
     <div class="col-sm-4">
-     <img class="logo"[src]="gotAPI" width="350px">
+     <img class="logo"[src]="showMeTheData" width="350px">
     </div>
     <div class="col-sm-8">
-      <h2>UMSL|HACK: Got API!</h2><br>
-      <h4>UMSL Hack: Got API! will be held on<b> Friday February 16th from 5:00 PM to Sunday February 18th 6:00 PM</b> at the University of Missouri-St. Louis Express Script Hall. 
-          The theme of this event is "GOT API!", where students will work in <b>teams of 3-5 people</b> to create projects focused on creatively by harnessing the power of the API. 
-          Our goal is to see how effectively students work with existing data and interfaces to solve real problems much as they would encounter in day-to-day business. 
+      <h2>UMSL|HACK: Show Me the Data!</h2><br>
+      <h4>UMSL Hack: Show Me the Data! will be held on<b> Friday February 15th from 5:00 PM to Sunday February 17th 6:00 PM</b> at the University of Missouri-St. Louis Express Script Hall. 
+          The theme of this event is "Show Me the Data!", where students will work in <b>teams of 3-5 people</b> to create projects focused on creatively by harnessing the power of <b>Data</b>. 
+          Our goal is to see how effectively students work with existing or newly created data while creating an interface to solve real problems much as they would encounter in day-to-day business. 
           
  </h4><br>
       
@@ -117,8 +110,7 @@
 
 <!-- Container (previous Section) -->
 <div id="previous" class="container-fluid text-center bg-grey">
-  <h2>previous hack</h2><br>
-  <h4>UMSL|HACK v1</h4>
+  <h2>previous hacks</h2><br>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -160,7 +152,7 @@
     </div> 
   </div><br>
   
-  <h2>What participants had to say about UMSLHACK v1</h2>
+  <h2>What participants had to say about UMSL|HACK</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -208,7 +200,7 @@
   <p-accordion [multiple]="true"> 
   <div class="row slideanim">
       <p-accordionTab header="Where and When is UMSL|HACK?">
-        <h4>UMSLHACK will be held on Friday February 16th at 5:00 PM to Sunday February 18th 6:00 PM at University of Missouri - St. Louis.</h4>
+        <h4>UMSL|HACK will be held on Friday February 15th at 5:00 PM to Sunday February 17th 6:00 PM at University of Missouri - St. Louis.</h4>
     </p-accordionTab>
         <p-accordionTab header="Am I eligible to participate?">
        <h4>Current undergraduate and graduate students, or those who graduated within the last 6 months, can compete. </h4>
@@ -218,8 +210,8 @@
         It’s entirely irrelevant what your experience is going into a hackathon, it’s more about your interest in technology and problem solving.  </h4>
     </p-accordionTab>
       <p-accordionTab header="Will there be food?">
-<h4>Absolutely! Your meals for the weekend will be free and there’ll be plenty of snacks and drinks to keep you energized. 
-If you’ve got specific dietary requirements, please let us know when you register.</h4>
+<h4>Absolutely! Your meals for the weekend will be free and there will be plenty of snacks and drinks to keep you energized. 
+If you have specific dietary requirements, please let us know when you register.</h4>
     </p-accordionTab>
       <p-accordionTab header="How Should I Act?">
  <h4>Check out the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"><b>MLH Code of Conduct</b></a>.</h4> 
@@ -233,7 +225,7 @@ If you’ve got specific dietary requirements, please let us know when you regis
   <h2 class="text-center">CONTACT Us</h2>
   <div class="row">
       <div class ="text-center">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p>Contact us and we will get back to you within 24 hours.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span>1 University Blvd. Express Scripts Hall <br>
       St. Louis, MO 63121-4400 </p>
       <p><span class="glyphicon glyphicon-envelope"></span> umslhack@gmail.com</p>
