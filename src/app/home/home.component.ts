@@ -18,9 +18,10 @@ export class HomeComponent implements OnInit {
   umslHack5 = "../../assets/img/IMG_9878.JPG"
   umslHack6 = "../../assets/img/IMG_9967.JPG"
   showMeTheData=  "../../assets/img/umslhackv3.png" 
-  labs= "../../assets/img/1904labs.png" 
-  LockerDome = "../../assets/img/logo-lockerdome.png"
+  labs= "../../assets/img/1904logo.png" 
+  slalom = "../../assets/img/slalom-logo.png"
   masterCard = "../../assets/img/Webp.net-resizeimage.png"
+  norton = '../../assets/img/norton.png'
 
   constructor() { }
 
