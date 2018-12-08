@@ -23,7 +23,6 @@
 
 
   .jumbotron {
- 
       background: url("../../assets/img/umsl-campus.jpg") center;
       background-size: cover;
       position: relative; 
@@ -33,7 +32,7 @@
   }
   .jumbotron .tint{
       height: 100%;
-      background-color:  rgba(0,0,0, .15);
+      background-color:  rgba(0,0,0, .60);
   }
   .content {
 	padding-left: 25px;
@@ -85,7 +84,10 @@
 .regbtn:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
+.main-logo{
+    width: 850px;
+    margin:25px;
+}
 
   .container-fluid {
       padding: 60px 50px;
@@ -100,6 +102,11 @@
   .logo {
       color: #f4511e;
       font-size: 200px;
+  }
+  .logo-slalom{
+    color: #f4511e;
+    font-size: 200px;
+    margin-top: -25px
   }
   .thumbnail {
       padding: 0 0 15px 0;
