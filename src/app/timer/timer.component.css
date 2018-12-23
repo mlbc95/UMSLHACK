@@ -121,3 +121,18 @@ body{
     display: inline-block;
     margin-top: 13px;
 }
+
+@media screen and (max-width: 480px) {
+	#countdown{
+		width: 300px;
+	}
+	#countdown #tiles > span{
+		width: 70px;
+		max-width: 92px;
+		font-size: 30px;
+	}
+	#countdown .labels{
+		display: flex;
+		bottom: 25px;
+	}
+}

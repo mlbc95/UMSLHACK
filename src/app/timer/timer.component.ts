@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-timer',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./timer.component.css']
 })
 export class TimerComponent implements OnInit {
+@HostListener('window:resize', ['$event'])
+onResize(event) {
+  this.innerWidth = window.innerWidth;
+}
   target_date: any = 1550271600000;
   days: any;
   hours: any;
@@ -14,6 +18,8 @@ export class TimerComponent implements OnInit {
   currentDate: any;
   seconds_left: any;
   countdown = document.getElementById("tiles");
+  public innerWidth: any;
+
   constructor() { }
 
   ngOnInit() {
@@ -21,6 +27,7 @@ export class TimerComponent implements OnInit {
     setInterval(() => {
       this.getCoutDown()
     }, 1000)
+    this.innerWidth = window.innerWidth;
   }
   getCoutDown() {
 

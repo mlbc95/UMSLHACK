@@ -3,7 +3,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 
-import {AccordionModule} from 'primeng/primeng';
+import {AccordionModule} from 'primeng/accordion';
 
 import { AppComponent } from './app.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';

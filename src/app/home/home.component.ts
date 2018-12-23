@@ -8,6 +8,8 @@ import {AccordionModule} from 'primeng/primeng';
 })
 export class HomeComponent implements OnInit {
   logo="../../assets/img/umsl_hack_logo_white.png";
+  umslHackMonoColorLogo = '../../assets/img/monogram_color.png';
+  umslHackMonoBlack = '../../assets/img/monogram_blk.png';
   sLogo="../../assets/img/Webp.net-resizeimage.png";
   umslIS="../../assets/img/information_systems_logo.jpg"
   og_UMSLHACK = "../../assets/img/og_logo.png"
@@ -24,6 +26,7 @@ export class HomeComponent implements OnInit {
   norton = '../../assets/img/norton.png' 
   expressLogo = '../../assets/img/expressScripts.png'
   centene = '../../assets/img/centeneLogo.png'
+
 
   constructor() { }
 
